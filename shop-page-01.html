@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="shop-page-01.css" />
+
+    <title>3legant | Shop Page 01</title>
+  </head>
+  <body>
+    <div class="notification-bar">
+      <div class="content">
+        <span>
+          <i class="ph ph-ticket"></i>
+
+          30% off storewide — Limited time!
+        </span>
+
+        <a href="">
+          Shop Now
+
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+
+      <i class="ph ph-x"></i>
+    </div>
+
+    <nav>
+      <div>
+        <button class="menu">
+          <i class="ph ph-list"></i>
+        </button>
+
+        <a class="logo" href=""> 3legant<span>.</span> </a>
+      </div>
+
+      <div class="links">
+        <a href="" class="active">Home</a>
+
+        <a href="">Shop</a>
+
+        <a href="">Product</a>
+
+        <a href="">Contact Us</a>
+      </div>
+
+      <div class="icons">
+        <i class="ph ph-magnifying-glass search"></i>
+
+        <i class="ph ph-user-circle user"></i>
+
+        <button type="button" class="checkout">
+          <i class="ph ph-handbag"></i>
+
+          <span>2</span>
+        </button>
+      </div>
+    </nav>
+
+    <aside class="sidebar">
+      <div class="sidebar-container">
+        <div class="sidebar-top">
+          <div class="sidebar-header">
+            <a class="logo" href=""> 3legant<span>.</span> </a>
+
+            <button class="close-menu">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="input-wrapper">
+            <i class="ph ph-magnifying-glass"></i>
+
+            <input
+              type="search"
+              placeholder="Search"
+              name="search"
+              id="search"
+            />
+          </div>
+
+          <div class="links">
+            <a href="">Home</a>
+
+            <a href="">Shop</a>
+
+            <a href="">Product</a>
+
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="sidebar-buttons-icon">
+            <div class="sidebar-button-icon checkout">
+              <span>Cart</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-handbag checkout"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+
+            <div class="sidebar-button-icon">
+              <span>Wishlist</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-heart favorite"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+          </div>
+
+          <button type="button">Sign In</button>
+
+          <div class="media-social">
+            <a href="">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-facebook-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-youtube-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="breadcrumbs">
+          <div class="breadcrumb-group-link">
+            <a href="">Home</a>
+
+            <i class="ph ph-caret-right"></i>
+          </div>
+
+          <div class="breadcrumb-group-link active">
+            <a href="">Shop</a>
+          </div>
+        </div>
+
+        <h3>Shop Page</h3>
+
+        <p>Let’s design the place you always imagined.</p>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="products-sidebar">
+        <div class="products-sidebar-header">
+          <i class="ph ph-sliders-horizontal"></i>
+
+          <span>Filter</span>
+        </div>
+
+        <div class="products-filters-links">
+          <span>Categories</span>
+
+          <div class="links">
+            <a href="">All Rooms</a>
+
+            <a href="" class="active">Living Room</a>
+
+            <a href="">Bedroom</a>
+
+            <a href="">Kitchen</a>
+
+            <a href="">Bathroom</a>
+
+            <a href="">Dinning</a>
+
+            <a href="">Outdoor</a>
+          </div>
+        </div>
+
+        <div class="products-filters-checkbox">
+          <span>Price</span>
+
+          <div class="checkboxs">
+            <div>
+              <label for="all-price">All Price</label>
+
+              <input type="checkbox" name="all-price" />
+            </div>
+
+            <div>
+              <label for="0-99">$0.00 - 99.99</label>
+
+              <input type="checkbox" name="0-99" checked />
+            </div>
+
+            <div>
+              <label for="100-199.99">$100.00 - 199.99</label>
+
+              <input type="checkbox" name="100-199.99" />
+            </div>
+
+            <div>
+              <label for="200-299.99">$200.00 - 299.99</label>
+
+              <input type="checkbox" name="200-299.99" />
+            </div>
+
+            <div>
+              <label for="300-399.99">$300.00 - 399.99</label>
+
+              <input type="checkbox" name="300-399.99" />
+            </div>
+
+            <div>
+              <label for="scales">$400.00+</label>
+
+              <input type="checkbox" id="scales" name="scales" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <div class="products-grid-header">
+          <span>Living Room</span>
+
+          <div class="toolbar">
+            <button type="button">
+              Sort by
+
+              <i class="ph ph-caret-down"></i>
+            </button>
+
+            <div class="buttons-group">
+              <button type="button" class="active">
+                <i class="ph ph-grid-nine"></i>
+              </button>
+
+              <button type="button">
+                <i class="ph ph-squares-four"></i>
+              </button>
+
+              <button type="button">
+                <i class="ph ph-square-split-horizontal"></i>
+              </button>
+
+              <button type="button">
+                <i class="ph ph-square-split-vertical"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-filters">
+          <div class="products-filters-top">
+            <div class="filter">
+              <i class="ph ph-sliders-horizontal"></i>
+
+              <span>Filter</span>
+            </div>
+
+            <div class="buttons-group">
+              <button type="button" class="active">
+                <i class="ph ph-square-split-horizontal"></i>
+              </button>
+
+              <button type="button">
+                <i class="ph ph-square-split-vertical"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="products-filters-bottom">
+            <span>Living Room</span>
+
+            <button type="button">
+              Sort by
+
+              <i class="ph ph-caret-down"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="products-list">
+          <div class="products">
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="product">
+                <div class="content">
+                  <div>
+                    <div class="badge-new">
+                      <span>New</span>
+                    </div>
+
+                    <div class="badge-promotion">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+
+                  <button type="button">
+                    <i class="ph ph-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="add-cart">Add to cart</button>
+              </div>
+
+              <div class="info-product">
+                <div class="ratings">
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+
+                  <i class="ph-fill ph-star"></i>
+                </div>
+
+                <span class="title">Loveseat Sofa</span>
+
+                <div class="prices">
+                  <span class="price">$200.00</span>
+
+                  <span class="price-promotion">$400.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button type="button">Show more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-content">
+        <h4>Join Our Newsletter</h4>
+
+        <span>Sign up for deals, new products and promotions</span>
+      </div>
+
+      <div class="input-wrapper">
+        <i class="ph ph-envelope"></i>
+
+        <input
+          type="email"
+          placeholder="Email address"
+          name="email"
+          id="email"
+        />
+
+        <a href="">Signup</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <span class="logo">3legant<span>.</span></span>
+
+          <hr />
+
+          <span>Gift & Decoration Store</span>
+        </div>
+
+        <div class="links">
+          <a href="">Home</a>
+
+          <a href="">Shop</a>
+
+          <a href="">Product</a>
+
+          <a href="">Blog</a>
+
+          <a href="">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <div class="copyright">
+          <p>Copyright © 2023 neanderdev. All rights reserved</p>
+
+          <span>Privacy Policy</span>
+
+          <span>Terms of Use</span>
+        </div>
+
+        <div class="social">
+          <a href="">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-facebook-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-youtube-logo"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="cart-flyout">
+      <div class="cart-flyout-container">
+        <div class="cart-flyout-top">
+          <div class="cart-flyout-top-header">
+            <h6>Cart</h6>
+
+            <button class="close-cart-flyout">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="products">
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-flyout-bottom">
+          <div class="cart-flyout-bottom-info">
+            <div class="sub-total">
+              <span class="title">Subtotal</span>
+
+              <span class="value">$99.00</span>
+            </div>
+
+            <div class="total">
+              <span class="title">Total</span>
+
+              <span class="value">$234.00</span>
+            </div>
+          </div>
+
+          <div class="cart-flyout-bottom-buttons">
+            <button type="button">Checkout</button>
+
+            <a href="">View Cart</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="shop-page-01.js"></script>
+  </body>
+</html>

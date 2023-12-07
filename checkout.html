@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="checkout.css" />
+
+    <title>3legant | Checkout</title>
+  </head>
+  <body>
+    <div class="notification-bar">
+      <div class="content">
+        <span>
+          <i class="ph ph-ticket"></i>
+
+          30% off storewide — Limited time!
+        </span>
+      </div>
+
+      <i class="ph ph-x"></i>
+    </div>
+
+    <nav>
+      <div>
+        <button class="menu">
+          <i class="ph ph-list"></i>
+        </button>
+
+        <a class="logo" href=""> 3legant<span>.</span> </a>
+      </div>
+
+      <div class="links">
+        <a href="" class="active">Home</a>
+
+        <a href="">Shop</a>
+
+        <a href="">Product</a>
+
+        <a href="">Contact Us</a>
+      </div>
+
+      <div class="icons">
+        <i class="ph ph-magnifying-glass search"></i>
+
+        <i class="ph ph-user-circle user"></i>
+
+        <button type="button" class="checkout">
+          <i class="ph ph-handbag"></i>
+
+          <span>2</span>
+        </button>
+      </div>
+    </nav>
+
+    <aside class="sidebar">
+      <div class="sidebar-container">
+        <div class="sidebar-top">
+          <div class="sidebar-header">
+            <a class="logo" href=""> 3legant<span>.</span> </a>
+
+            <button class="close-menu">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="input-wrapper">
+            <i class="ph ph-magnifying-glass"></i>
+
+            <input
+              type="search"
+              placeholder="Search"
+              name="search"
+              id="search"
+            />
+          </div>
+
+          <div class="links">
+            <a href="">Home</a>
+
+            <a href="">Shop</a>
+
+            <a href="">Product</a>
+
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="sidebar-buttons-icon">
+            <div class="sidebar-button-icon checkout">
+              <span>Cart</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-handbag checkout"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+
+            <div class="sidebar-button-icon">
+              <span>Wishlist</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-heart favorite"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+          </div>
+
+          <button type="button">Sign In</button>
+
+          <div class="media-social">
+            <a href="">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-facebook-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-youtube-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <button type="button" class="back">
+      <i class="ph ph-caret-left"></i>
+
+      back
+    </button>
+
+    <section class="checkout-section">
+      <div class="cart-header">
+        <h3>Check Out</h3>
+
+        <div class="steps-progress">
+          <div class="step isFinished">
+            <div class="step-indicator">
+              <i class="ph ph-check"></i>
+            </div>
+
+            <span>Shopping cart</span>
+          </div>
+
+          <div class="step isActive">
+            <div class="step-indicator">
+              <span>2</span>
+            </div>
+
+            <span>Checkout details</span>
+          </div>
+
+          <div class="step">
+            <div class="step-indicator">
+              <span>3</span>
+            </div>
+
+            <span>Order complete</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkout-container">
+        <form>
+          <div class="form-container">
+            <span class="title">Contact Infomation</span>
+
+            <div class="input-groups">
+              <div class="input-wrapper">
+                <label for="first-name">First Name</label>
+
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="First Name"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="last-name">Last Name</label>
+
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Phone Number</label>
+
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">Your Address</label>
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+          </div>
+
+          <div class="form-container">
+            <span class="title">Shipping Address</span>
+
+            <div class="input-wrapper">
+              <label for="street-address">Street Address</label>
+
+              <input
+                type="text"
+                name="street-address"
+                id="street-address"
+                placeholder="Street Address"
+              />
+            </div>
+
+            <div class="select-wrapper">
+              <label for="country">Country</label>
+
+              <select name="country" id="country">
+                <option value="" selected>Country</option>
+
+                <option value="Brasil">Brasil</option>
+
+                <option value="Estados Unidos">Estados Unidos</option>
+              </select>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="town-city">Town / City</label>
+
+              <input
+                type="text"
+                name="town-city"
+                id="town-city"
+                placeholder="Town / City"
+              />
+            </div>
+
+            <div class="input-groups">
+              <div class="input-wrapper">
+                <label for="state">State</label>
+
+                <input
+                  type="text"
+                  name="state"
+                  id="state"
+                  placeholder="State"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="zip-code">Zip Code</label>
+
+                <input
+                  type="text"
+                  name="zip-code"
+                  id="zip-code"
+                  placeholder="Zip Code"
+                />
+              </div>
+            </div>
+
+            <div class="checkbox-wrapper">
+              <input
+                type="checkbox"
+                name="address-different"
+                id="address-different"
+              />
+
+              <label for="address-different"
+                >Use a different billing address (optional)</label
+              >
+            </div>
+          </div>
+
+          <div class="form-container">
+            <span class="title">Payment Method</span>
+
+            <div class="radio-button-group">
+              <div class="radio-button-wrapper">
+                <div>
+                  <input
+                    type="radio"
+                    id="credit-card"
+                    name="payment-method"
+                    value="credit-card"
+                    checked
+                  />
+
+                  <label for="credit-card">Pay by Card Credit</label>
+                </div>
+
+                <i class="ph ph-credit-card"></i>
+              </div>
+
+              <div class="radio-button-wrapper">
+                <div>
+                  <input
+                    type="radio"
+                    id="paypal"
+                    name="payment-method"
+                    value="paypal"
+                  />
+
+                  <label for="paypal">PayPal</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="card-number">Card Number</label>
+
+              <input
+                type="text"
+                name="card-number"
+                id="card-number"
+                placeholder="1234 1234 1234 1234"
+              />
+            </div>
+
+            <div class="input-groups">
+              <div class="input-wrapper">
+                <label for="expiration">Expiration Date</label>
+
+                <input
+                  type="text"
+                  name="expiration"
+                  id="expiration"
+                  placeholder="MM/YY"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="cvc-code">CVC Code</label>
+
+                <input
+                  type="text"
+                  name="cvc-code"
+                  id="cvc-code"
+                  placeholder="CVC Code"
+                />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Place Order</button>
+        </form>
+
+        <div class="checkout-summary">
+          <h6>Order summary</h6>
+
+          <div class="products-container">
+            <div class="product">
+              <div class="product-item">
+                <img
+                  src="./assets/images/produto-carrinho.png"
+                  alt="Banco para Cozinha"
+                />
+
+                <div class="product-item-info">
+                  <span class="name">Tray Table</span>
+
+                  <span class="description">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <span class="price">$19.00</span>
+
+                <button type="button">
+                  <i class="ph ph-x"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-item">
+                <img
+                  src="./assets/images/produto-carrinho.png"
+                  alt="Banco para Cozinha"
+                />
+
+                <div class="product-item-info">
+                  <span class="name">Tray Table</span>
+
+                  <span class="description">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <span class="price">$19.00</span>
+
+                <button type="button">
+                  <i class="ph ph-x"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-item">
+                <img
+                  src="./assets/images/produto-carrinho.png"
+                  alt="Banco para Cozinha"
+                />
+
+                <div class="product-item-info">
+                  <span class="name">Tray Table</span>
+
+                  <span class="description">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <span class="price">$19.00</span>
+
+                <button type="button">
+                  <i class="ph ph-x"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="ticket"
+                id="ticket"
+                placeholder="Coupon"
+              />
+
+              <button type="button">Apply</button>
+            </div>
+          </div>
+
+          <div class="summary-info">
+            <div class="summary-coupon">
+              <div class="name-coupon">
+                <span>
+                  <i class="ph ph-ticket"></i>
+
+                  JenkateMW
+                </span>
+              </div>
+
+              <div class="coupon-value">
+                <span>-$25.00</span>
+
+                <button type="button">[Remove]</button>
+              </div>
+            </div>
+
+            <div class="summary-info-text">
+              <span class="name">Shipping</span>
+
+              <span class="value">Free</span>
+            </div>
+
+            <div class="summary-info-text">
+              <span class="name">Subtotal</span>
+
+              <span class="value">$99.00</span>
+            </div>
+
+            <div class="summary-info-text-marked">
+              <span class="name">Total</span>
+
+              <span class="value">$234.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <span class="logo">3legant<span>.</span></span>
+
+          <hr />
+
+          <span>Gift & Decoration Store</span>
+        </div>
+
+        <div class="links">
+          <a href="">Home</a>
+
+          <a href="">Shop</a>
+
+          <a href="">Product</a>
+
+          <a href="">Blog</a>
+
+          <a href="">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <div class="copyright">
+          <p>Copyright © 2023 neanderdev. All rights reserved</p>
+
+          <span>Privacy Policy</span>
+
+          <span>Terms of Use</span>
+        </div>
+
+        <div class="social">
+          <a href="">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-facebook-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-youtube-logo"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="cart-flyout">
+      <div class="cart-flyout-container">
+        <div class="cart-flyout-top">
+          <div class="cart-flyout-top-header">
+            <h6>Cart</h6>
+
+            <button class="close-cart-flyout">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="products">
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-flyout-bottom">
+          <div class="cart-flyout-bottom-info">
+            <div class="sub-total">
+              <span class="title">Subtotal</span>
+
+              <span class="value">$99.00</span>
+            </div>
+
+            <div class="total">
+              <span class="title">Total</span>
+
+              <span class="value">$234.00</span>
+            </div>
+          </div>
+
+          <div class="cart-flyout-bottom-buttons">
+            <button type="button">Checkout</button>
+
+            <a href="">View Cart</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="checkout.js"></script>
+  </body>
+</html>

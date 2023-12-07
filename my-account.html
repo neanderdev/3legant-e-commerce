@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="my-account.css" />
+
+    <title>3legant | My Account</title>
+  </head>
+  <body>
+    <div class="notification-bar">
+      <div class="content">
+        <span>
+          <i class="ph ph-ticket"></i>
+
+          30% off storewide — Limited time!
+        </span>
+      </div>
+
+      <i class="ph ph-x"></i>
+    </div>
+
+    <nav>
+      <div>
+        <button class="menu">
+          <i class="ph ph-list"></i>
+        </button>
+
+        <a class="logo" href=""> 3legant<span>.</span> </a>
+      </div>
+
+      <div class="links">
+        <a href="" class="active">Home</a>
+
+        <a href="">Shop</a>
+
+        <a href="">Product</a>
+
+        <a href="">Contact Us</a>
+      </div>
+
+      <div class="icons">
+        <i class="ph ph-magnifying-glass search"></i>
+
+        <i class="ph ph-user-circle user"></i>
+
+        <button type="button" class="checkout">
+          <i class="ph ph-handbag"></i>
+
+          <span>2</span>
+        </button>
+      </div>
+    </nav>
+
+    <aside class="sidebar">
+      <div class="sidebar-container">
+        <div class="sidebar-top">
+          <div class="sidebar-header">
+            <a class="logo" href=""> 3legant<span>.</span> </a>
+
+            <button class="close-menu">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="input-wrapper">
+            <i class="ph ph-magnifying-glass"></i>
+
+            <input
+              type="search"
+              placeholder="Search"
+              name="search"
+              id="search"
+            />
+          </div>
+
+          <div class="links">
+            <a href="">Home</a>
+
+            <a href="">Shop</a>
+
+            <a href="">Product</a>
+
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="sidebar-buttons-icon">
+            <div class="sidebar-button-icon checkout">
+              <span>Cart</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-handbag checkout"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+
+            <div class="sidebar-button-icon">
+              <span>Wishlist</span>
+
+              <div class="sidebar-button-icon-wrapper">
+                <i class="ph ph-heart favorite"></i>
+
+                <span>2</span>
+              </div>
+            </div>
+          </div>
+
+          <button type="button">Sign In</button>
+
+          <div class="media-social">
+            <a href="">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-facebook-logo"></i>
+            </a>
+
+            <a href="">
+              <i class="ph ph-youtube-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <button type="button" class="back">
+      <i class="ph ph-caret-left"></i>
+
+      back
+    </button>
+
+    <section class="my-account-section">
+      <div class="title">
+        <h3>My Account</h3>
+      </div>
+
+      <div class="my-account-container">
+        <div class="my-account-menu">
+          <div class="username">
+            <div class="avatar-usarname">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Avatar de Perfil do Github"
+              />
+
+              <button type="button">
+                <i class="ph ph-camera"></i>
+              </button>
+            </div>
+
+            <span>Neander de Souza</span>
+          </div>
+
+          <select name="links" id="links">
+            <option value="Account" selected>Account</option>
+
+            <option value="Address">Address</option>
+
+            <option value="Orders">Orders</option>
+
+            <option value="Wishlist">Wishlist</option>
+
+            <option value="Log Ou">Log Out</option>
+          </select>
+
+          <div class="links">
+            <a href="" class="active">Account</a>
+
+            <a href="">Address</a>
+
+            <a href="">Orders</a>
+
+            <a href="">Wishlist</a>
+
+            <a href="">Log Out</a>
+          </div>
+        </div>
+
+        <form>
+          <div class="form-container">
+            <span>Account Details</span>
+
+            <div class="input-wrapper">
+              <label for="first-name">First name *</label>
+
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="First Name"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="last-name">Last name *</label>
+
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Last Name"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="display-name">Display name *</label>
+
+              <input
+                type="text"
+                name="display-name"
+                id="display-name"
+                placeholder="Display Name"
+              />
+
+              <p>
+                This will be how your name will be displayed in the account
+                section and in reviews
+              </p>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">Email *</label>
+
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+          </div>
+
+          <div class="form-container">
+            <span>Password</span>
+
+            <div class="input-wrapper">
+              <label for="old-password">Old Password</label>
+
+              <input
+                type="password"
+                name="old-password"
+                id="old-password"
+                placeholder="Old Password"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="new-password">New Password</label>
+
+              <input
+                type="password"
+                name="new-password"
+                id="new-password"
+                placeholder="New Password"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="repeat-new-password">Repeat New Password</label>
+
+              <input
+                type="password"
+                name="repeat-new-password"
+                id="repeat-new-password"
+                placeholder="Repeat New Password"
+              />
+            </div>
+          </div>
+
+          <button type="submit">Save Changes</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <span class="logo">3legant<span>.</span></span>
+
+          <hr />
+
+          <span>Gift & Decoration Store</span>
+        </div>
+
+        <div class="links">
+          <a href="">Home</a>
+
+          <a href="">Shop</a>
+
+          <a href="">Product</a>
+
+          <a href="">Blog</a>
+
+          <a href="">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <div class="copyright">
+          <p>Copyright © 2023 neanderdev. All rights reserved</p>
+
+          <span>Privacy Policy</span>
+
+          <span>Terms of Use</span>
+        </div>
+
+        <div class="social">
+          <a href="">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-facebook-logo"></i>
+          </a>
+
+          <a href="">
+            <i class="ph ph-youtube-logo"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="cart-flyout">
+      <div class="cart-flyout-container">
+        <div class="cart-flyout-top">
+          <div class="cart-flyout-top-header">
+            <h6>Cart</h6>
+
+            <button class="close-cart-flyout">
+              <i class="ph ph-x"></i>
+            </button>
+          </div>
+
+          <div class="products">
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img
+                src="./assets/images/produto-carrinho.png"
+                alt="Banco para Cozinha"
+              />
+
+              <div class="info">
+                <div class="details">
+                  <span class="name-product">Tray Table</span>
+
+                  <span class="detail-product">Color: Black</span>
+
+                  <div class="input-product">
+                    <button type="button">
+                      <i class="ph ph-minus"></i>
+                    </button>
+
+                    <input type="number" id="value" name="value" value="2" />
+
+                    <button type="button">
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="prices">
+                  <span>$19.19</span>
+
+                  <button class="delete-product">
+                    <i class="ph ph-x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-flyout-bottom">
+          <div class="cart-flyout-bottom-info">
+            <div class="sub-total">
+              <span class="title">Subtotal</span>
+
+              <span class="value">$99.00</span>
+            </div>
+
+            <div class="total">
+              <span class="title">Total</span>
+
+              <span class="value">$234.00</span>
+            </div>
+          </div>
+
+          <div class="cart-flyout-bottom-buttons">
+            <button type="button">Checkout</button>
+
+            <a href="">View Cart</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="my-account.js"></script>
+  </body>
+</html>

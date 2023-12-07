@@ -1,0 +1,311 @@
+:root {
+  --color-black-900: #000000;
+
+  --color-blue-400: #377dff;
+  --color-green-400: #38cb89;
+  --color-yellow-400: #ffab00;
+  --color-red-400: #ff5630;
+
+  --color-gray-100: #fefefe;
+  --color-gray-200: #f3f5f7;
+  --color-gray-300: #e8ecef;
+  --color-gray-400: #6c7275;
+  --color-gray-500: #343839;
+  --color-gray-600: #232627;
+  --color-gray-700: #141718;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  font-size: 1.6rem;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-400);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .banner-sign-up {
+  width: 100%;
+  height: 100vh;
+
+  padding-top: 3.2rem;
+
+  display: flex;
+  justify-content: center;
+
+  background-image: url("./assets/images/image-placeholder-sign-up.png");
+  background-color: #f3f5f7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container .banner-sign-up a {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem; /* 100% */
+  font-feature-settings: "clig" off, "liga" off;
+
+  color: var(--color-black-900);
+}
+
+.container .banner-sign-up a span {
+  color: var(--color-gray-400);
+}
+
+.container .form-sign-up {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .form-sign-up form {
+  width: 45.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.container .form-sign-up form .header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.container .form-sign-up form .header h4 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.4rem; /* 110% */
+  letter-spacing: -0.4px;
+  font-feature-settings: "clig" off, "liga" off;
+
+  color: var(--color-gray-700);
+}
+
+.container .form-sign-up form .header span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 162.5% */
+  font-feature-settings: "clig" off, "liga" off;
+
+  color: var(--color-gray-400);
+}
+
+.container .form-sign-up form .header span a {
+  font-weight: 600;
+
+  color: var(--color-green-400);
+}
+
+.container .form-sign-up form .forms {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.container .form-sign-up form .forms .input-wrapper {
+  position: relative;
+}
+
+.container .form-sign-up form .forms .input-wrapper label {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+
+  color: var(--color-gray-400);
+
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 162.5% */
+  font-feature-settings: "clig" off, "liga" off;
+
+  cursor: text;
+
+  transition: 0.5s ease-in-out;
+}
+
+.container .form-sign-up form .forms .input-wrapper input {
+  width: 100%;
+
+  padding: 0.5rem;
+
+  color: var(--color-gray-400);
+
+  outline: 0;
+  border: 0;
+  border-bottom: 0.1rem solid var(--color-gray-300);
+
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 162.5% */
+  font-feature-settings: "clig" off, "liga" off;
+
+  transition: 0.5s ease-in-out;
+}
+
+.container .form-sign-up form .forms .input-wrapper input:focus,
+.container .form-sign-up form .forms .input-wrapper input:valid,
+.container
+  .form-sign-up
+  form
+  .forms
+  .input-wrapper
+  input:not(:placeholder-shown) {
+  border-bottom: 0.2rem solid var(--color-gray-300);
+}
+
+.container .form-sign-up form .forms .input-wrapper input:focus ~ label,
+.container .form-sign-up form .forms .input-wrapper input:valid ~ label,
+.container
+  .form-sign-up
+  form
+  .forms
+  .input-wrapper
+  input:not(:placeholder-shown)
+  ~ label {
+  transform: translateY(-2.4rem);
+}
+
+.container .form-sign-up form .forms .input-wrapper i {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+
+  color: var(--color-gray-400);
+
+  font-size: 2.4rem;
+
+  cursor: pointer;
+}
+
+.container .form-sign-up form .forms .accept-terms-and-privacy-policy {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.container .form-sign-up form .forms .accept-terms-and-privacy-policy input {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  accent-color: var(--color-gray-700);
+}
+
+.container .form-sign-up form .forms .accept-terms-and-privacy-policy label {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 162.5% */
+  font-feature-settings: "clig" off, "liga" off;
+
+  color: var(--color-gray-400);
+}
+
+.container .form-sign-up form .forms .accept-terms-and-privacy-policy span {
+  font-weight: 600;
+
+  color: var(--color-gray-700);
+}
+
+.container .form-sign-up form button {
+  padding: 1rem 4rem;
+
+  background-color: var(--color-gray-700);
+  color: #ffffff;
+
+  border: 0;
+  border-radius: 0.8rem;
+
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem; /* 175% */
+  letter-spacing: -0.4px;
+  font-feature-settings: "clig" off, "liga" off;
+
+  transition: 0.3s;
+}
+
+.container .form-sign-up form button:hover {
+  background-color: var(--color-gray-600);
+}
+
+@media screen and (max-width: 1024px) {
+  .container .form-sign-up form {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container .form-sign-up form {
+    width: 36rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .banner-sign-up {
+    height: 43rem;
+  }
+
+  .container .form-sign-up {
+    margin: 4rem 0;
+    padding: 0 4rem;
+  }
+
+  .container .form-sign-up form {
+    width: 100%;
+  }
+}
